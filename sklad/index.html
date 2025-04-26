@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga - Комплексные решения</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="lib/swiper-bundle.min.css">
+  <script src="lib/swiper-bundle.min.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <div class="header__logo"><img src="img/Logo.svg"></div>
+
+        <div class="mobile-menu-btn" onclick="burger()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="header__menu">
+          <div class="header__menu-item active">КОМПЛЕКСНЫЕ РЕШЕНИЯ</div>
+          <div class="header__menu-item">ПРОЕКТЫ</div>
+          <div class="header__menu-item">ВИДЕО</div>
+          <div class="header__menu-item">О КОМПАНИИ</div>
+          <div class="header__menu-item">КАТАЛОГ</div>
+          <div class="header__menu-item">КОНТАКТЫ</div>
+        </div>
+
+        <div class="header__right">
+          <img class="header__search-icon" src="img/search-icon.svg">
+          <div class="header__phone">8 800 707 74 77</div>
+        </div>
+      </nav>
+
+      <div class="header__divider"></div>
+
+      <div class="header__content">
+        <h1 class="header__title">
+          АВТОМАТИЗАЦИЯ СКЛАДСКОЙ ЛОГИСТИКИ
+          <div class="header__line"></div>
+        </h1>
+        <p class="header__subtitle">
+          СИСТЕМНЫЕ КОМПЛЕКСНЫЕ РЕШЕНИЯ «ПОД-КЛЮЧ»
+        </p>
+      </div>
+
+
+    </div>
+    <img class="header__scroll-down" src="img/Down arrow.svg">
+  </header>
+
+  <section class="warehouse-section">
+    <div class="container">
+      <h2 class="warehouse-section__title">АВТОМАТИЗИРОВАННЫЕ СКЛАДСКИЕ КОМПЛЕКСЫ</h2>
+      <div class="warehouse-section__divider"></div>
+
+      <div class="warehouse-types">
+        <div class="warehouse-card">
+          <div class="warehouse-card__image-container">
+            <img class="warehouse-card__main-image" src="img/bg-image-warehouse.jpg" alt="Склад готовой продукции">
+            <div class="warehouse-card__overlay">
+              <img class="warehouse-card__play-icon" src="img/image-play.svg" alt="Play">
+            </div>
+          </div>
+          <h3 class="warehouse-card__title">СКЛАД ГОТОВОЙ ПРОДУКЦИИ</h3>
+          <div class="warehouse-card__divider"></div>
+        </div>
+
+        <div class="warehouse-card">
+          <div class="warehouse-card__image-container">
+            <img class="warehouse-card__main-image" src="img/bg-image-warehouse.jpg" alt="Склад плитного материала">
+            <div class="warehouse-card__overlay">
+              <img class="warehouse-card__play-icon" src="img/image-play.svg" alt="Play">
+            </div>
+          </div>
+          <h3 class="warehouse-card__title">СКЛАД ПЛИТНОГО МАТЕРИАЛА</h3>
+          <div class="warehouse-card__divider"></div>
+        </div>
+
+        <div class="warehouse-card">
+          <div class="warehouse-card__image-container">
+            <img class="warehouse-card__main-image" src="img/bg-image-warehouse.jpg" alt="Склад фурнитуры и запчастей">
+            <div class="warehouse-card__overlay">
+              <img class="warehouse-card__play-icon" src="img/image-play.svg" alt="Play">
+            </div>
+          </div>
+          <h3 class="warehouse-card__title">СКЛАД ФУРНИТУРЫ И ЗАПЧАСТЕЙ</h3>
+          <div class="warehouse-card__divider"></div>
+        </div>
+      </div>
+
+      <div class="projects-gallery">
+        <div class="projects-gallery__header">
+          <h3 class="projects-gallery__title">ФОТО РЕАЛИЗОВАННЫХ ПРОЕКТОВ</h3>
+          <div class="projects-gallery__divider"></div>
+        </div>
+
+        <div class="slider ">
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide">
+                  <img src="img/first-slide.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <img src="img/second-slide.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <img src="img/third-slide.jpg" alt="">
+                </div>
+              </div>
+
+            </div>
+            <div class="arrow-right">
+              <img src="img/arrow-left (2).svg" alt="">
+            </div>
+            <div class="arrow-left">
+              <img src="img/arrow-left (1).svg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <img src="img/circle-image.png" alt="" class="img-circle">
+  </section>
+
+  <section class="industries-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-divider"></div>
+        <h2 class="section-title">КОМУ БУДЕТ ПОЛЕЗНО</h2>
+      </div>
+
+      <div class="industries-grid">
+        <!-- Первая строка -->
+        <div class="industry-card" style="background-image: url('img/industry/furniture-production.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-home.svg" alt="Мебель">
+          </div>
+          <div class="industry-name">
+            ПРОИЗВОДСТВО МЕБЕЛИ
+          </div>
+        </div>
+
+        <div class="industry-card" style="background-image: url('img/industry/electro-tehnique.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-electro.svg" alt="Электротехника">
+          </div>
+          <div class="industry-name">ЭЛЕКТРОТЕХНИКА</div>
+        </div>
+
+        <div class="industry-card" style="background-image: url('img/industry/electro-energy.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-atom.svg"" alt=" Электроэнергетика">
+          </div>
+          <div class="industry-name">ЭЛЕКТРОЭНЕРГЕТИКА</div>
+        </div>
+
+        <!-- Вторая строка -->
+        <div class="industry-card" style="background-image: url('img/industry/micro-electrisity.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-calc.svg" alt="Микроэлектроника">
+          </div>
+          <div class="industry-name">МИКРОЭЛЕКТРОНИКА</div>
+        </div>
+
+        <div class="industry-card" style="background-image: url('img/industry/farmacy.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-heart.svg" alt="Фармацевтика">
+          </div>
+          <div class="industry-name">ФАРМАЦЕВТИКА</div>
+        </div>
+
+        <div class="industry-card" style="background-image: url('img/industry/retail.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-sella.svg" alt="Розничная торговля">
+          </div>
+          <div class="industry-name">РОЗНИЧНАЯ ТОРГОВЛЯ</div>
+        </div>
+
+
+
+      </div>
+      <!-- Нижний ряд с двумя карточками и стрелкой -->
+      <div class="third-row-card">
+        <div class="industry-card industry-card-large" style="background-image: url('img/industry/retail-parts.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-disk.svg" alt="Фармацевтика">
+          </div>
+          <div class="industry-name">ТОРГОВЛЯ ЗАПАСНЫМИ ЧАСТЯМИ И РАСХОДНЫМИ МАТЕРИАЛАМИ</div>
+        </div>
+
+        <div class="arrow-container">
+          <img src="img/icons/icon-arrow-down.svg" alt="Прокрутить вниз" class="scroll-down-arrow">
+        </div>
+
+        <div class="industry-card industry-card-large" style="background-image: url('img/industry/marketplace.jpg')">
+          <div class="industry-icon">
+            <img src="img/icons/icon-packet.svg" alt="Фармацевтика">
+          </div>
+          <div class="industry-name">МАРКЕТЛЕЙСКАЯ ОГЛАЖИМЕНТ ЦЕНТРА</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="warehouse-automation">
+    <div class="container">
+
+
+      <div class="warehouse-automation__header">
+        <h1 class="warehouse-automation__title">
+          Оборудование<br>
+          для автоматизации СКЛАДСКОЙ ЛОГИСТИКИ
+        </h1>
+        <div class="warehouse-automation__divider"></div>
+      </div>
+
+      <div class="automation-products">
+        <div class="automation-product">
+          <div class="automation-product-card automation-product__image"
+            style="background-image: url(img/industry/card-1.jpg);">
+            <h2 class="automation-product__title">СИСТЕМА ХРАНЕНИЯ<br>ВЫСОКОЙ ПЛОТНОСТИ <br> С КРАН-ШТАБЕЛЕРАМИ</h2>
+          </div>
+          <h2 class="smart-solution__title">УМНЫЙ СКЛАД</h2>
+        </div>
+
+        <div class="automation-product">
+          <div class="automation-product-card automation-product__image"
+            style="background-image: url(img/industry/card-2.jpg);">
+            <h2 class="automation-product__title">АВТОМАТИЧЕСКИЕ<br>ТЕЛЕЖКИ <br> (AGV/ROV)</h2>
+          </div>
+          <h2 class="smart-solution__title">ИНТЕЛЛЕКТУАЛЬНОЕ<br>ПЕРЕМЕЩЕНИЕ</h2>
+        </div>
+
+        <div class="automation-product">
+          <div class="automation-product-card automation-product__image"
+            style="background-image: url(img/industry/card-3.jpg);">
+            <h2 class="automation-product__title">КОНВЕЙЕРЫ <br><br> ПОДЪЕМНЫЕ СТОЛЫ <br><br> ПОДЪЕМНЫЕ СТОЛЫ<br><br>
+              СПУСКО-ПОДЪЕМНОЕ<br>
+              ОБОРУДОВАНИЕ
+            </h2>
+          </div>
+          <h2 class="smart-solution__title">АВТОМАТИЧЕСКАЯ<br>СОРТИРОВКА</h2>
+        </div>
+
+        <div class="automation-product">
+          <div class="automation-product-card automation-product__image"
+            style="background-image: url(img/industry/card-4.jpg);">
+            <h2 class="automation-product__title">ОБОРУДОВАНИЕ<br>ДЛЯ УПАКОВКИ</h2>
+          </div>
+          <h2 class="smart-solution__title">АВТОМАТИЧЕСКАЯ УПАКОВКА</h2>
+        </div>
+      </div>
+
+      <div class="material-warehouses">
+        <div class="material-warehouse" style="background-image: url(img/industry/card-5.jpg);">
+          <h2 class="material-warehouse__title">
+            ГОРИЗОНТАЛЬНЫЙ СКЛАД<br>
+            ПЛИТНОГО МАТЕРИАЛА
+          </h2>
+        </div>
+
+        <div class="material-warehouse" style="background-image: url(img/industry/card-6.jpg);">
+          <h2 class="material-warehouse__title">
+            ВЕРТИКАЛЬНЫЙ СКЛАД<br>
+            ПЛИТНОГО МАТЕРИАЛА
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="implementers">
+    <div class="container">
+      <h2 class="implementers__title">КТО ВНЕДРЯЕТ</h2>
+      <div class="implementers__divider"></div>
+
+      <div class="implementers__intro">
+        <img src="img/Logo-blue.svg" alt="">
+        <div class="implementers__separator"></div>
+        <div class="implementers__intro-text">
+          <p>Компания LIGA занимается разработкой и внедрением комплексных решений автоматизации складской логистики.
+          </p>
+          <p>Предоставляет современные и инновационные решения, технологии в сфере складской и производственной
+            логистики для своих клиентов.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="implementer">
+        <div class="implementer__content">
+          <div class="implementer__content-text">
+            <p class="implementer__description">
+              Компания <span>HERO</span> – ведущий поставщик решений автоматизированной складской логистики в Китае.<br>
+              Опыт в логистической отрасли свыше 20 лет, реализовано более 15 масштабных проектов в мебельной отрасли.
+            </p>
+            <p class="implementer__description">
+              Запущены проекты в таких отраслях, как автомобилестроение, электротехника, микроэлектроника, медицина,
+              товары повседневного спроса (FMCG-рынок), электроэнергетика.
+            </p>
+          </div>
+          <div class="implementers__separator"></div>
+          <img src="img/Logo-hero.svg" alt="">
+        </div>
+
+        <div class="implementer__features">
+          <p>HERO имеет полный комплекс собственных программных продуктов <strong>(OMS, WMS, WCS, TMS, BMS),</strong>
+            ИТ-подразделение со штатом <strong>более 60 программистов </strong>поддерживают и интегрируют ПО клиентов
+            (<strong>ERP/WMS</strong> и др.) с решениями в области логистики производства и склада.</p>
+          <p>Производственное подразделение HERO <strong>изготавливает </strong>кран-штабелеры, системы хранения высокой
+            плотности, конвейерные системы и другое оборудование.</p>
+        </div>
+      </div>
+
+      <div class="implementer">
+        <div class="implementer__content">
+          <img src="img/logo-kot.svg" alt="">
+          <div class="implementers__separator"></div>
+          <div class="implementer__content-text">
+            <p class="implementer__description">
+              Компании KDT и MesEdge – лидеры в Юго-Восточной Азии в разработке, производстве и поставке технологических
+              перевозок решений для мебельной и дверной отраслей!
+            </p>
+            <p class="implementer__description">
+              Независимые технологические исследования и разработки в собственных R&D-центрах в Китае и Италии, а также
+              система контроля качества являются фундаментом надежности и актуальности продукции заводов-изготовителей.
+              <strong>70+ патентов и 7 заводов</strong>, площадь производства составляет 540 000 м², продукция
+              поставляется в <strong>70+ стран мира</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+
+
+      <div class="advantages__list-cards">
+        <div class="advantages__header">
+          <div class="advantages__divider"></div>
+          <h2 class="advantages__title">
+            <span class="advantages__title-text">ПОЧЕМУ</span>
+            <span class="advantages__title-highlight">LIGA</span>
+          </h2>
+        </div>
+        <div class="advantages__list">
+          <div class="advantage">
+            <img class="advantage__icon" src="img/icons/circle-man.svg" alt="Индивидуальный подход">
+            <div class="advantage__content">
+              <p class="advantage__text">
+                Индивидуальный подход к каждому клиенту и объекту, включая нестандартные решения и разработку
+                программного обеспечения
+              </p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <img class="advantage__icon" src="img/icons/truck.svg" alt="Проектирование">
+            <div class="advantage__content">
+              <p class="advantage__text">
+                Собственная служба логистического и технического проектирования
+              </p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <img class="advantage__icon" src="img/icons/clock.svg" alt="Сервис 24/7">
+            <div class="advantage__content">
+              <p class="advantage__text">
+                Обеспечиваем сервисным обслуживанием, действующая служба клиентского сервиса быстро реагирует для
+                поддержки клиентов 24/7
+              </p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <img class="advantage__icon" src="img/icons/handshake.svg" alt="Партнерство">
+            <div class="advantage__content">
+              <p class="advantage__text">
+                Партнерство с ведущими международными производителями оборудования для автоматизации и роботизации
+                складов
+              </p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <img class="advantage__icon" src="img/icons/house.svg" alt="Склад запчастей">
+            <div class="advantage__content">
+              <p class="advantage__text">
+                Наличие склада запасных частей с постоянным пополняемым запасом продукции
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="contact-block">
+
+        <div class="footer-left">
+          <img src="img/Logo.svg" alt="Логотип компании" class="contact-block__logo">
+
+          <div class="contact-info">
+            <div class="contact-info__item">
+              <span class="contact-info__label">ИНН:</span>
+              <span class="contact-info__value">0000000</span>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">УНП:</span>
+              <span class="contact-info__value">0000000</span>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">Р/С:</span>
+              <span class="contact-info__value">00000000</span>
+            </div><br>
+            <div class="contact-info__item">
+              <span class="contact-info__label">Адрес:</span>
+              <span class="contact-info__value">г. Москва, проспект Лютикова д. 253, оф. 133</span>
+            </div><br>
+            <div class="contact-info__item">
+              <span class="contact-info__label">E-mail:</span>
+              <span class="contact-info__value">support@liga.com</span>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">Телефон:</span>
+              <span class="contact-info__value">+7 (950) 222-55-44</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Форма обратной связи -->
+        <div class="contact-form">
+          <h3 class="contact-form__title">УЗНАЙТЕ ОБ АВТОМАТИЗАЦИИ СКЛАДОВ ПОДРОБНЕЕ</h3>
+          <div class="contact-form__divider"></div>
+
+          <div class="contact-form__field">
+            <input type="text" id="name" class="contact-form__input" placeholder="Имя">
+            <!-- <label for="name" class="contact-form__label">Имя</label> -->
+          </div>
+
+          <div class="contact-form__field">
+            <input type="text" id="email" class="contact-form__input" placeholder="E-mail">
+            <!-- <label for="email" class="contact-form__label">E-mail</label> -->
+          </div>
+
+          <div class="contact-form__field">
+            <input type="tel" id="phone" class="contact-form__input" placeholder="Телефон">
+            <!-- <label for="phone" class="contact-form__label">Телефон</label> -->
+          </div>
+
+          <button type="submit" class="contact-form__submit">ОСТАВИТЬ ЗАЯВКУ</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
